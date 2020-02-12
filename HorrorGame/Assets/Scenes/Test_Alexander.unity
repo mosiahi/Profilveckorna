@@ -137,7 +137,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &28910531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151,7 +151,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TriggerComplete: 0
-  myCollider: {fileID: 0}
   TriggerId: 0
   TimeToShowText: 5
   myTextObj: {fileID: 1798153834}
@@ -526,7 +525,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &474185672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -542,7 +541,6 @@ MonoBehaviour:
   myTriggers:
   - {fileID: 28910531}
   - {fileID: 1309152304}
-  TriggerCopies: []
   MissonComplete: 0
   MissonText: Learn what happend
 --- !u!4 &474185673
@@ -862,7 +860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 550a5d6229340f44bb1ab033e117f5b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 1662656138}
+  item: {fileID: 767716644}
   n: 0
 --- !u!4 &767716641
 Transform:
@@ -1121,7 +1119,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1178232144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1135,7 +1133,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TriggerComplete: 0
-  myCollider: {fileID: 0}
   TriggerId: 0
   TimeToShowText: 5
   myTextObj: {fileID: 1202978797}
@@ -1382,7 +1379,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1309152304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1396,7 +1393,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TriggerComplete: 0
-  myCollider: {fileID: 0}
   TriggerId: 0
   TimeToShowText: 5
   myTextObj: {fileID: 1890274756}
@@ -1887,18 +1883,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 4362189946239084028}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1662656138 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6286938213440368640, guid: d716ab1ccccf3a34192d5992693a0879,
-    type: 3}
-  m_PrefabInstance: {fileID: 4362189946239084028}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1662656137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67f9419d98057e0458c3e78841b7a3d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1662656139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2353,7 +2337,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2000624902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2368,7 +2352,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myTriggers:
   - {fileID: 1178232144}
-  TriggerCopies: []
   MissonComplete: 0
   MissonText: Learn what happend 2
 --- !u!4 &2000624903
@@ -2451,11 +2434,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Note
-      objectReference: {fileID: 0}
-    - target: {fileID: 6286938213955169305, guid: d716ab1ccccf3a34192d5992693a0879,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -99.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d716ab1ccccf3a34192d5992693a0879, type: 3}
@@ -2798,12 +2776,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8013938004126430853}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b0ed22c34401bad4fb8a04a02d58014c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myMissionContainer: {fileID: 0}
+  myMissons:
+  - {fileID: 474185672}
+  - {fileID: 2000624902}
   MissonIndex: 0
   myTextToShowObjective: {fileID: 1351038390}
 --- !u!61 &8013938004126430856

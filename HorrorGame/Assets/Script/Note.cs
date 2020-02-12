@@ -10,7 +10,6 @@ public class Note : ItemClass
     [SerializeField] GameObject ScrollArea;
     [SerializeField] string Name;
     [SerializeField] string Description = "Note to read from";
-    public bool HasBeenRead = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -43,7 +42,6 @@ public class Note : ItemClass
         {
             GameObject.Find("DiscardButton").SetActive(false);
         }
-        HasBeenRead = true;
     }
 
 

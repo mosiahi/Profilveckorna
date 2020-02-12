@@ -46,7 +46,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TriggerComplete: 0
-  myCollider: {fileID: 1089697533972243115}
   TriggerId: 0
   TimeToShowText: 5
   myTextObj: {fileID: 8436874223086877552}

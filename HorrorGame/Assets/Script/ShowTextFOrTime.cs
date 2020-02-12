@@ -14,9 +14,8 @@ public class ShowTextFOrTime : TriggerClass
     // Start is called before the first frame update
     void Start()
     {
-        //SetCollider();
+        SetCollider();
     }
-
 
     // Update is called once per frame
     void Update()
@@ -32,7 +31,7 @@ public class ShowTextFOrTime : TriggerClass
     IEnumerator FadeTextToFullAlpha(float t, Text i)
     {
         i.color = new Color(i.color.r, i.color.g, i.color.b, 0);
-        while (i.color.a < 1)
+        while(i.color.a < 1)
         {
             i.color = new Color(i.color.r, i.color.g, i.color.b, i.color.a + (Time.deltaTime / t));
             yield return null;
@@ -78,6 +77,7 @@ public class ShowTextFOrTime : TriggerClass
     }
     public override void myOnTriggerCheck(Collider2D collision)
     {
+        Debug.Log(gameObject.name);
         if (RightTrigger(collision))
         {
             WriteText = true;

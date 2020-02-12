@@ -156,14 +156,10 @@ public class DisplayInventory : MonoBehaviour
         else
         {
             myInventoryMenu.SetActive(false);
-        }       
+        }
+        
         
     }
-    //public void DisableInventoryItems()
-    //{
-    //    myInventoryMenu.SetActive(false);
-    //    itemsDisplayed[inventory.Container[i]].gameObject.SetActive(false);
-    //}
     public Vector3 GetPostion(int i)
     {
         
@@ -175,7 +171,7 @@ public class DisplayInventory : MonoBehaviour
     //public static InventoryObjects inventory2;
     public void UseTheItem()
     {
-        if(inventory.Container.Count != 0 && RemoveItem.AccessButtonInt >= 0 && RemoveItem.AccessButtonInt < inventory.Container.Count)
+        if(inventory.Container.Count != 0)
         {
             inventory.Container[RemoveItem.AccessButtonInt].myItem.UseItem();
             inventory.Container[RemoveItem.AccessButtonInt].myAmount -= 1;
