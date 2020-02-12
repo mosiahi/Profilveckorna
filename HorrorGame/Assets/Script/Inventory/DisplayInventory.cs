@@ -171,7 +171,7 @@ public class DisplayInventory : MonoBehaviour
     //public static InventoryObjects inventory2;
     public void UseTheItem()
     {
-        if(inventory.Container.Count != 0)
+        if(inventory.Container.Count != 0 && RemoveItem.AccessButtonInt >= 0 && RemoveItem.AccessButtonInt < inventory.Container.Count)
         {
             inventory.Container[RemoveItem.AccessButtonInt].myItem.UseItem();
             inventory.Container[RemoveItem.AccessButtonInt].myAmount -= 1;
