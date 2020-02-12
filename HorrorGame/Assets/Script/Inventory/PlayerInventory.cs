@@ -12,7 +12,7 @@ public class PlayerInventory : MonoBehaviour
         Debug.Log("Yes42342");
 
         var item = collision.GetComponent<InventoryItems>();
-        if (item && inventory.Container.Count <= 12)
+        if (item && inventory.Container.Count <= 14)
         {
             inventory.AddItem(item.myitem, 1, 0);
            
