@@ -26,6 +26,6 @@ public class CheckForIfNoteRead : TriggerClass
     }
     public override void myOnTriggerCheck(Collider2D collision)
     {
-        throw new System.NotImplementedException();
+        
     }
 }
