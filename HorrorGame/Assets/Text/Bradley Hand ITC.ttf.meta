@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f2e48a3fbbb948d42ba5efef99543d3b
+guid: 5c606a6b63d27da49b392a27f2007ab1
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,9 +8,9 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Bradley Hand ITC TT
+  fontName: Bernhard Modern Roman
   fontNames:
-  - Bradley Hand ITC TT
+  - Bernhard Modern Roman
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
