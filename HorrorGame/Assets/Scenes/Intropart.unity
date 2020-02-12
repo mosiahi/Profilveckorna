@@ -1975,7 +1975,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -150.94998, y: 134.4}
+  m_AnchoredPosition: {x: -124.6, y: 82.6}
   m_SizeDelta: {x: 301.9, y: 268.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &198191624
@@ -29562,7 +29562,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 320.00003, y: -123}
+  m_AnchoredPosition: {x: 346.35004, y: -174.8}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1476389056
@@ -31768,6 +31768,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: UIInventory (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841359836599196149, guid: acc1ccb3d39a12f4e94de611f1a0e590,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2841359836599196150, guid: acc1ccb3d39a12f4e94de611f1a0e590,
         type: 3}
