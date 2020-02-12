@@ -28,6 +28,8 @@ public class SceneTransition : MonoBehaviour
         {
             playerStorage.initialValue = playerPos;
             StartCoroutine(FadeCo());
+           
+
             //SceneManager.LoadScene(sceneToLoad);
         }
     }
