@@ -156,10 +156,14 @@ public class DisplayInventory : MonoBehaviour
         else
         {
             myInventoryMenu.SetActive(false);
-        }
-        
+        }       
         
     }
+    //public void DisableInventoryItems()
+    //{
+    //    myInventoryMenu.SetActive(false);
+    //    itemsDisplayed[inventory.Container[i]].gameObject.SetActive(false);
+    //}
     public Vector3 GetPostion(int i)
     {
         
